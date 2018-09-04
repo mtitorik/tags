@@ -1,0 +1,280 @@
+<!doctype html>
+	<html lang="en">
+		<html>
+			<head>
+				<title>html tags</title>
+				<style>
+					thead {color:green;}
+					tbody {color:blue;}
+					tfoot {color:red;}
+
+					table, th, td {
+					    border: 1px solid black;
+					}
+				</style>
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<meta charset="UTF-8">
+				  <meta name="description" content="tag book">
+				  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+				  <meta name="author" content="Torikul">
+				  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<meta charset="utf-8">
+				<style>
+					table, th, td {border: 1px solid black}
+				</style>
+				
+			</head>
+				
+			<body>
+				<nav>
+					<a href="/html">HTML</a>
+					<a href="/CSS">CSS</a>
+					<a href="/JavaScript">java</a>
+					<a href="/jquery">jquery</a>
+				</nav>
+				<main>
+				<header>
+					<!--this is a comment-->
+					<h1> This is the body</h1>
+					<p> <cite>Lorem Ipsum</cite> is simply <i>dummy text</i> of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when <del>an unknown</del> <ins>an unknown</ins> <mark>printer</mark> took a galley of type and scrambled it to make a type specimen book.</p>
+				</header>
+				</main>
+				<hr>
+					<a href="https://www.youtube.com/">YouTube</a>
+					<p>the <abbr title="World Health Organization">WHO</abbr> was founded in 1948</p>
+					<address>
+						Writen by <a href="mailto:mtitorik@gmail.com">Torikul islam</a>.<br>
+					</address>
+					<p>Click on the sun or on one of the planet to watch it closer</p>
+					<img src="planets.gif"alt="planets" usemap=#planetmap>
+					<map name="planetmap">
+						<area shape="rect" coords="0,0,82,126" href="images/sun.gif" alt="sun">
+						<area shape="circle" coords="90,58,3" href="images/mercury.gif" alt="mercury">
+						<area shape="circle" coords="124,58,8" href="images/venglobe.gif" alt="venglobe">
+					</map>
+					
+					<article>
+						<h2>this is a tag book</h2>
+						<div style="background-color: lightblue"><p>everything you will find here are from w3school</p></div>
+						<br>
+					</article>
+					<p>currently i'm working on a <b>tag book</b></p>
+
+					<aside>
+						<h3>tag</h3>
+						<p>tag is an html language</p>
+					</aside>
+					<audio controls="autoplay">
+						<source src="something just like this.mp3" type="audio/mpeg">
+						<source src="something just like this.ogg" type="audio/ogg">
+					</audio>
+					<ul>
+						<li><data value="21053">User <bdi>hrefs</bdi>: 60 points</li></data>
+						<li><data value="21058">User <bdi>jdoe</bdi>: 80 points</li></data>
+						<li><data value="21059">User <bdi>إيان</bdi>: 90 points</li></data>
+					</ul>
+					<p><bdo dir="rtl">this paragraph will go right to left</bdo></p>
+					<h1>Abour WWF</h1>
+					<p>here is a quote from WWF's website:</p>
+					<blockquote cite="http://www.worldwildlife.org/who/index.html">For 50 years, WWF has been protecting the future of nature.</blockquote>
+
+					<h3>let's see a button example</h3>
+					<button type="button" onclick="alert('Hello world!')">click me!</button><br>
+
+					<form action="/action_page.php" method="get">
+						
+						first name:<input type="text" name="fname"><br>
+						Last name: <input type="text" name="lname"><br>
+						<button type="submit">submit</button><br>
+						<button type="submit" formaction="/action_page2.php">submit to another page</button>
+					</form>
+					<canvas id="myCanvas">Your Browser does not support the HTML5 canvas tag.</canvas>
+					<script>
+						var c = document.getElementById("myCanvas");
+						var ctx = c.getContext("2d");
+						ctx.fillStyle = "#FF0000";
+						ctx.fillRect(0, 0, 80, 100);
+					</script>
+					<table>
+						<caption>monthly savings</caption>
+						<colgroup>
+							<col span="1" style="background-color: green">
+							<col style="background-color: lightblue">
+						</colgroup>
+						<tr>
+							<th>monthl</th>
+							<th>savings</th>
+						</tr>
+						<tr>
+							<td>march</td>
+							<td>$100</td>
+						</tr>
+						<tr>
+							<td>april</td>
+							<td>$70</td>
+						</tr>
+						
+
+					</table><br><br>
+					<em>Renders as emphasized text</em><br>
+					<strong>Defines important text</strong><br>
+					<code>Defines a piece of computer code</code><br>
+					<samp>Defines sample output from a computer program</samp><br>
+					<kbd>Defines keyboard input</kbd><br>
+					<var>Defines a variable</var><br>
+
+					<form action="/action_page.php" method="get">
+					<input list="browsers" name="browser">
+						<datalist id="browsers">
+							<option value="internet explorer">
+							<option value="Firefox">
+							<option value="Chrome">
+							<option value="Opera">
+							<option value="Safari">
+						</datalist>
+						<input type="submit">
+					</form><br>
+					<dl>
+						<dt>Tea</dt>
+						<dd>Sweat Milk</dd>
+						<dt>Milk</dt>
+						<dd>White cold drink</dd>
+					</dl>
+					<details>
+						<summary>copyright 1990-2018.</summary>
+						<p>-by Torikul Islam. All Rights Reserved</p>
+						<p>All content and graphics on this web site are the property of the company Torikul Islam</p>
+					</details>
+					<p><dfn title="HYperText Markup language">HTML</dfn>is the standerd markuo language for creating web page</p>
+					<table>
+						<tr>
+							<th>january <dialog open>this is an open dialog window</dialog></th>
+							<th>february</th>
+							<th>March</th>
+						</tr>
+						<tr>
+							<td>31</td>
+							<td>28</td>
+							<td>31</td>
+						</tr>
+						</table>
+						<embed src="images/planets.gif">
+							<form>
+								<fieldset>
+									<legend>Personal:</legend>
+									Name: <input type="text"><br>
+									Email: <input type="text"><br>
+									Date of Birtday: <input type="text">
+								</fieldset>
+							</form>
+							<figure>
+								<img src="sun.gif" alt="sun" style="width: 30%">
+								<figcaption>solar system, sun</figcaption>
+							</figure>
+							<iframe src="https://www.w3schools.com"><p>Your Browser does not support iframe</p></iframe><br>
+
+							<p>click on one of the text levels to toggle the related control</p>
+							<form action="/action-page.php">
+								<label for="male">male</label>
+								<input type="radio" name="gender" id="male" value="male"><br>
+								<label for="female">female</label>
+								<input type="radio" name="gender" id="female" value="female"><br>
+								<label for="other">other</label>
+								<input type="radio" name="gender" id="other" value="other"><br>
+							</form>
+							<p>display a gauge</p>
+							<meter value="5" min="0" max="10">2 out of 10</meter><br>
+							<meter value="6" min="0" max="10">100%</meter><br><br>
+							<script>
+								document.write("Hello world!")
+							</script>
+							<noscript>Sorry, your browser does not support javascript</noscript><br><br>
+							<object width="400" height="500" data="images/mercury.gif"></object><br>
+							<select>
+								<optgroup label="swedish cars">
+									<option value="Volvo">Volvo</option>
+									<option value="saab">Saab</option>
+								</optgroup>
+								<optgroup label="Germen cars">
+									<option value="mercedes">mercedes</option>
+									<option value="audi">Audi</option>
+								</optgroup>
+							</select><br>
+							<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">0 <input type="range" id="a" value="50">100+
+								<input type="number" id="b" value="50">=<output name="x" for="a b"></output>
+								
+							</form>
+							<object data="something just like this.mp3"><param name="autoplay" value="true">
+							</object><br>
+							<picture>
+								<source media="(min-width: 450px)" srcset="files/wordpress.png">
+								<source media=("min-width: 465px)" srcset="images/sun.gif">
+								<img src="planets.gif" alt="Flowers" style="width:auto">
+
+							</picture><br>
+							<pre>this is pre element</pre><br>
+							downloading progress
+							<progress value="24" max="100">
+							</progress><br>
+							<p>WWF's Goal is to:<q>Build a future where people live in harmony with nature</q><s> we home that they succed</s> we hope that they succed</p><br>
+							<ruby>
+								漢 <rt><rp>(</rp>ㄏㄢˋ<rp>)</rp></rt>
+							</ruby><br>
+							<p id="demo"></p>
+							<script>document.getElementById("demo").innerHTML="hello JavaScript!";</script><br>
+							<section>
+								<h1>WWF</h1>
+								<p>The world wide fund for nature(WWF) is.....</p>
+							</section><br>
+							<p>W3School is the world's larjest web development site</p>
+							<p><small>Copyright 1990-2050 by refnes Data</small></p>
+							<p>my mother has <span style="color: lightblue; font-weight:bold; ">blue</span> eyes and my father has <span style="color: darkolivegreen;font-weight: bold;">dark green</span> eyes</p><br>
+							<p>this test contains <sub>subscripty</sub> text/p>
+							<p>
+								this text contains <sup>superscript</sup> text
+							</p><br>
+							<svg width="200" height="200">
+								<circle cx="100" cy="100" r="80" stroke="green" stroke-width="4" fill="yellow" /> sorry,your browser does not support inline SVG.
+							</svg><br>
+							<table>
+								<thead>
+									<tr>
+										<th>month</th>
+										<th>savings</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>january</td>
+										<td>200$</td>
+									</tr>
+									<tr>
+										<td>february</td>
+										<td>300$</td>
+									</tr>
+									<tfoot>
+										<tr>
+											<td>sum</td>
+											<td>500$</td>
+										</tr>
+									</tfoot>
+								</tbody>
+							</table><br>
+							<template>
+								  <h2>Flower</h2>
+								  <img src="img_white_flower.jpg" width="214" height="204">
+							</template><br>
+							<textarea rows="4" cols="60">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</textarea><br><br>
+							<p>we open our shop at <time>10.00</time> every morning</p>
+							<p>i have a <u>birtday</u> part on <time datetime="2018-12-05 23.59"> birtday</time></p><br>
+							<video width="1280" height="720" controls=""> <source src="something just like this.mp4" type="video/mp4"> your browser does not support video</video><br><br>
+
+							<footer>
+								<p>Posted By: Torikul Islam</p>
+								<p><address>
+									Contact Information:<a href="mailto:mtitorik@gmail.com">mtitorik@gmail.com</a>
+								</address></p>
+							</footer>
+			</body>
+				
+		</html>
